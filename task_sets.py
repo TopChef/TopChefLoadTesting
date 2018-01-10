@@ -28,7 +28,7 @@ class CheckValidJSON(TaskSet):
         """
 
         :return: The JSON schema against which the random data is to be
-        validated
+            validated
         """
         return {
             '$schema': 'http://json-schema.org/schema#',
